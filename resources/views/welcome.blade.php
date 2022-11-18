@@ -144,92 +144,90 @@
                                                                                                      src="img/logo/logo-light.svg"
                                                                                                      width="116"
                                                                                                      alt="Finder"></a>
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
-                    class="navbar-toggler-icon"></span></button>
+
 
             <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
-                <ul class="navbar-nav navbar-nav-scroll" style="max-height: 35rem;">
-                    <!-- Demos switcher-->
-                    <li class="nav-item dropdown me-lg-2"><a class="nav-link dropdown-toggle align-items-center pe-lg-4"
-                                                             href="#" data-bs-toggle="dropdown" role="button"
-                                                             aria-expanded="false"><i
-                                class="fi-layers me-2"></i>Demos<span
-                                class="d-none d-lg-block position-absolute top-50 end-0 translate-middle-y border-end border-light"
-                                style="width: 1px; height: 30px;"></span></a>
-                        <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="real-estate-home-v1.html"><i
-                                        class="fi-building fs-base me-2"></i>Real Estate Demo</a></li>
-                            <li class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="car-finder-home.html"><i class="fi-car fs-base me-2"></i>Car
-                                    Finder Demo</a></li>
-                            <li class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="job-board-home-v1.html"><i
-                                        class="fi-briefcase fs-base me-2"></i>Job Board Demo</a></li>
-                            <li class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="city-guide-home-v1.html"><i
-                                        class="fi-map-pin fs-base me-2"></i>City Guide Demo</a></li>
-                            <li class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="index.html"><i class="fi-home fs-base me-2"></i>Main Page</a>
-                            </li>
-                            <li><a class="dropdown-item" href="components/typography.html"><i
-                                        class="fi-list fs-base me-2"></i>Components</a></li>
-                            <li><a class="dropdown-item" href="docs/dev-setup.html"><i class="fi-file fs-base me-2"></i>Documentation</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!-- Menu items-->
-                    <li class="nav-item active"><a class="nav-link" href="car-finder-home.html">Home</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                                                     data-bs-toggle="dropdown" aria-expanded="false">Catalog</a>
-                        <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="car-finder-catalog-list.html">List View</a></li>
-                            <li><a class="dropdown-item" href="car-finder-catalog-grid.html">Grid View</a></li>
-                            <li><a class="dropdown-item" href="car-finder-single.html">Car Single Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                                                     data-bs-toggle="dropdown" aria-expanded="false">Account</a>
-                        <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="car-finder-account-info.html">Personal Info</a></li>
-                            <li><a class="dropdown-item" href="car-finder-account-security.html">Password &amp;
-                                    Security</a></li>
-                            <li><a class="dropdown-item" href="car-finder-account-cars.html">My Cars</a></li>
-                            <li><a class="dropdown-item" href="car-finder-account-wishlist.html">Wishlist</a></li>
-                            <li><a class="dropdown-item" href="car-finder-account-reviews.html">Reviews</a></li>
-                            <li><a class="dropdown-item" href="car-finder-account-notifications.html">Notifications</a>
-                            </li>
-                            <li><a class="dropdown-item" href="signin-dark.html">Sign In</a></li>
-                            <li><a class="dropdown-item" href="signup-dark.html">Sign Up</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                                                     data-bs-toggle="dropdown" aria-expanded="false">Vendor</a>
-                        <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="car-finder-sell-car.html">Sell Car</a></li>
-                            <li><a class="dropdown-item" href="car-finder-promotion.html">Ad Promotion Page</a></li>
-                            <li><a class="dropdown-item" href="car-finder-vendor.html">Vendor Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                                                     data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-                        <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="car-finder-about.html">About</a></li>
-                            <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" role="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                                <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="car-finder-blog.html">Blog Grid</a></li>
-                                    <li><a class="dropdown-item" href="car-finder-blog-single.html">Single Post</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="dropdown-item" href="car-finder-contacts.html">Contacts</a></li>
-                            <li><a class="dropdown-item" href="car-finder-help-center.html">Help Center</a></li>
-                            <li><a class="dropdown-item" href="car-finder-404.html">404 Not Found</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item d-lg-none"><a class="nav-link" href="#signin-modal" data-bs-toggle="modal"><i
-                                class="fi-user me-2"></i>Sign in</a></li>
-                </ul>
+{{--                <ul class="navbar-nav navbar-nav-scroll" style="max-height: 35rem;">--}}
+{{--                    <!-- Demos switcher-->--}}
+{{--                    <li class="nav-item dropdown me-lg-2"><a class="nav-link dropdown-toggle align-items-center pe-lg-4"--}}
+{{--                                                             href="#" data-bs-toggle="dropdown" role="button"--}}
+{{--                                                             aria-expanded="false"><i--}}
+{{--                                class="fi-layers me-2"></i>Demos<span--}}
+{{--                                class="d-none d-lg-block position-absolute top-50 end-0 translate-middle-y border-end border-light"--}}
+{{--                                style="width: 1px; height: 30px;"></span></a>--}}
+{{--                        <ul class="dropdown-menu dropdown-menu-dark">--}}
+{{--                            <li><a class="dropdown-item" href="real-estate-home-v1.html"><i--}}
+{{--                                        class="fi-building fs-base me-2"></i>Real Estate Demo</a></li>--}}
+{{--                            <li class="dropdown-divider"></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-home.html"><i class="fi-car fs-base me-2"></i>Car--}}
+{{--                                    Finder Demo</a></li>--}}
+{{--                            <li class="dropdown-divider"></li>--}}
+{{--                            <li><a class="dropdown-item" href="job-board-home-v1.html"><i--}}
+{{--                                        class="fi-briefcase fs-base me-2"></i>Job Board Demo</a></li>--}}
+{{--                            <li class="dropdown-divider"></li>--}}
+{{--                            <li><a class="dropdown-item" href="city-guide-home-v1.html"><i--}}
+{{--                                        class="fi-map-pin fs-base me-2"></i>City Guide Demo</a></li>--}}
+{{--                            <li class="dropdown-divider"></li>--}}
+{{--                            <li><a class="dropdown-item" href="index.html"><i class="fi-home fs-base me-2"></i>Main Page</a>--}}
+{{--                            </li>--}}
+{{--                            <li><a class="dropdown-item" href="components/typography.html"><i--}}
+{{--                                        class="fi-list fs-base me-2"></i>Components</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="docs/dev-setup.html"><i class="fi-file fs-base me-2"></i>Documentation</a>--}}
+{{--                            </li>--}}
+{{--                        </ul>--}}
+{{--                    </li>--}}
+{{--                    <!-- Menu items-->--}}
+{{--                    <li class="nav-item active"><a class="nav-link" href="car-finder-home.html">Home</a></li>--}}
+{{--                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"--}}
+{{--                                                     data-bs-toggle="dropdown" aria-expanded="false">Catalog</a>--}}
+{{--                        <ul class="dropdown-menu dropdown-menu-dark">--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-catalog-list.html">List View</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-catalog-grid.html">Grid View</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-single.html">Car Single Page</a></li>--}}
+{{--                        </ul>--}}
+{{--                    </li>--}}
+{{--                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"--}}
+{{--                                                     data-bs-toggle="dropdown" aria-expanded="false">Account</a>--}}
+{{--                        <ul class="dropdown-menu dropdown-menu-dark">--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-account-info.html">Personal Info</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-account-security.html">Password &amp;--}}
+{{--                                    Security</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-account-cars.html">My Cars</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-account-wishlist.html">Wishlist</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-account-reviews.html">Reviews</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-account-notifications.html">Notifications</a>--}}
+{{--                            </li>--}}
+{{--                            <li><a class="dropdown-item" href="signin-dark.html">Sign In</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="signup-dark.html">Sign Up</a></li>--}}
+{{--                        </ul>--}}
+{{--                    </li>--}}
+{{--                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"--}}
+{{--                                                     data-bs-toggle="dropdown" aria-expanded="false">Vendor</a>--}}
+{{--                        <ul class="dropdown-menu dropdown-menu-dark">--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-sell-car.html">Sell Car</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-promotion.html">Ad Promotion Page</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-vendor.html">Vendor Page</a></li>--}}
+{{--                        </ul>--}}
+{{--                    </li>--}}
+{{--                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"--}}
+{{--                                                     data-bs-toggle="dropdown" aria-expanded="false">Pages</a>--}}
+{{--                        <ul class="dropdown-menu dropdown-menu-dark">--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-about.html">About</a></li>--}}
+{{--                            <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" role="button"--}}
+{{--                                                    data-bs-toggle="dropdown" aria-expanded="false">Blog</a>--}}
+{{--                                <ul class="dropdown-menu dropdown-menu-dark">--}}
+{{--                                    <li><a class="dropdown-item" href="car-finder-blog.html">Blog Grid</a></li>--}}
+{{--                                    <li><a class="dropdown-item" href="car-finder-blog-single.html">Single Post</a></li>--}}
+{{--                                </ul>--}}
+{{--                            </li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-contacts.html">Contacts</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-help-center.html">Help Center</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="car-finder-404.html">404 Not Found</a></li>--}}
+{{--                        </ul>--}}
+{{--                    </li>--}}
+{{--                    <li class="nav-item d-lg-none"><a class="nav-link" href="#signin-modal" data-bs-toggle="modal"><i--}}
+{{--                                class="fi-user me-2"></i>Sign in</a></li>--}}
+{{--                </ul>--}}
             </div>
         </div>
     </header>
@@ -240,9 +238,10 @@
         <div class="container pt-5">
             <div class="row pt-lg-4 pt-xl-5">
                 <div class="col-lg-4 col-md-5 pt-3 pt-md-4 pt-lg-5">
-                    <h1 class="display-4 text-light pb-2 mb-4 me-md-n5">Easy way to find the right car</h1>
-                    <p class="fs-lg text-light opacity-70">Finder is a leading digital marketplace for the automotive
-                        industry that connects car shoppers with sellers. </p>
+                    <h1 class="display-3 text-light pb-2 mb-5 me-md-n5">Простой способ найти  подходящую машину</h1>
+                                        <p class="fs-lg text-light opacity-70">
+{{--                                            Finder is a leading digital marketplace for the automotive industry that connects car shoppers with sellers.--}}
+                                        </p>
                 </div>
                 <div class="col-lg-8 col-md-7 pt-md-5"><img class="d-block mt-4 ms-auto"
                                                             src="img/car-finder/home/hero-img.png" width="800"
@@ -250,26 +249,14 @@
             </div>
         </div>
         <div class="container mt-4 mt-sm-3 mt-lg-n3 pb-5 mb-md-4">
-            <!-- Tabs-->
-            <ul class="nav nav-tabs nav-tabs-light mb-4">
-                <li class="nav-item"><a class="nav-link active" href="#">New</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Used</a></li>
-            </ul>
-            <!-- Form group-->
+
             <form class="form-group form-group-light d-block">
                 <div class="row g-0 ms-lg-n2">
-                    <div class="col-lg-2">
-                        <div class="input-group border-end-lg border-light"><span
-                                class="input-group-text text-muted ps-2 ps-sm-3"><i class="fi-search"></i></span>
-                            <input class="form-control" type="text" name="keywords" placeholder="Keywords...">
-                        </div>
-                    </div>
-                    <hr class="hr-light d-lg-none my-2">
-                    <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="dropdown border-end-sm border-light" data-bs-toggle="select">
                             <button class="btn btn-link dropdown-toggle ps-2 ps-sm-3" type="button"
                                     data-bs-toggle="dropdown" aria-expanded="false"><i class="fi-list me-2"></i><span
-                                    class="dropdown-toggle-label">Make</span></button>
+                                    class="dropdown-toggle-label">Марка</span></button>
                             <input type="hidden" name="make">
                             <ul class="dropdown-menu dropdown-menu-dark" style="">
                                 <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Acura</span></a>
@@ -290,11 +277,11 @@
                         </div>
                     </div>
                     <hr class="hr-light d-sm-none my-2">
-                    <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="dropdown border-end-md border-light" data-bs-toggle="select">
                             <button class="btn btn-link dropdown-toggle ps-2 ps-sm-3" type="button"
                                     data-bs-toggle="dropdown" aria-expanded="false"><i class="fi-list me-2"></i><span
-                                    class="dropdown-toggle-label">Model</span></button>
+                                    class="dropdown-toggle-label">Модель</span></button>
                             <input type="hidden" name="model">
                             <ul class="dropdown-menu dropdown-menu-dark" style="">
                                 <li><a class="dropdown-item" href="#"><span
@@ -317,11 +304,11 @@
                         </div>
                     </div>
                     <hr class="hr-light d-md-none my-2">
-                    <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="dropdown border-end-sm border-light" data-bs-toggle="select">
                             <button class="btn btn-link dropdown-toggle ps-2 ps-sm-3" type="button"
                                     data-bs-toggle="dropdown" aria-expanded="false"><i
-                                    class="fi-car fs-lg me-2"></i><span class="dropdown-toggle-label">Body type</span>
+                                    class="fi-car fs-lg me-2"></i><span class="dropdown-toggle-label">Тип ТС</span>
                             </button>
                             <input type="hidden" name="type">
                             <ul class="dropdown-menu dropdown-menu-dark" style="">
@@ -345,35 +332,56 @@
                         </div>
                     </div>
                     <hr class="hr-light d-sm-none my-2">
-                    <div class="col-lg-2 col-md-3 col-sm-6">
-                        <div class="dropdown" data-bs-toggle="select">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="dropdown border-light" data-bs-toggle="select">
                             <button class="btn btn-link dropdown-toggle ps-2 ps-sm-3" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false"><i class="fi-map-pin me-2"></i><span
-                                    class="dropdown-toggle-label">Location</span></button>
-                            <input type="hidden" name="location">
+                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                    class="fi-entertainment fs-lg me-2"></i>
+                                <span class="dropdown-toggle-label">Состояние</span>
+                            </button>
+                            <input type="hidden" name="type">
                             <ul class="dropdown-menu dropdown-menu-dark" style="">
-                                <li><a class="dropdown-item" href="#"><span
-                                            class="dropdown-item-label">Dallas</span></a></li>
-                                <li><a class="dropdown-item" href="#"><span
-                                            class="dropdown-item-label">Chicago</span></a></li>
-                                <li><a class="dropdown-item" href="#"><span
-                                            class="dropdown-item-label">Houston</span></a></li>
-                                <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">Las Vegas</span></a>
+                                <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">НОВЫЙ</span></a>
                                 </li>
                                 <li><a class="dropdown-item" href="#"><span
-                                            class="dropdown-item-label">Los Angeles</span></a></li>
-                                <li><a class="dropdown-item" href="#"><span class="dropdown-item-label">New York</span></a>
+                                            class="dropdown-item-label">С ПРОБЕГОМ</span></a>
                                 </li>
-                                <li><a class="dropdown-item" href="#"><span
-                                            class="dropdown-item-label">San Francisco</span></a></li>
+
                             </ul>
                         </div>
                     </div>
-                    <hr class="hr-light d-lg-none my-2">
-                    <div class="col-lg-2">
-                        <button class="btn btn-primary w-100" type="submit">Search</button>
-                    </div>
                 </div>
+                <hr class="hr-light  my-2">
+
+                <div class="row g-0 ms-lg-n2">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="border-end-lg border-light input-group"><span
+                                class="text-muted ps-2 ps-sm-3 input-group-text" id="search-icon"><i
+                                    class="fi-user"></i></span><input placeholder="Ваше имя" aria-label="Search"
+                                                                        aria-describedby="search-icon"
+                                                                        class="form-control"></div>
+                    </div>
+                    <hr class="hr-light d-lg-none my-2">
+
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="border-end-lg border-light input-group"><span
+                                class="text-muted ps-2 ps-sm-3 input-group-text" id="search-icon"><i
+                                    class="fi-phone"></i></span><input placeholder="Телефон" aria-label="Search"
+                                                                      aria-describedby="search-icon"
+                                                                      class="form-control"></div>
+                    </div>
+                    <hr class="hr-light d-lg-none my-2">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="border-end-lg border-light input-group"><span
+                                class="text-muted ps-2 ps-sm-3 input-group-text" id="search-icon"><i
+                                    class="fi-mail"></i></span><input placeholder="Э-почта" aria-label="Search"
+                                                                       aria-describedby="search-icon"
+                                                                       class="form-control"></div>
+                    </div>
+                    <hr class="hr-light d-lg-none my-2">
+                    <div class="col-lg-3 "><button type="button" class="w-100 btn btn-primary"> Отправить заявку </button></div>
+                </div>
+
             </form>
         </div>
     </section>
@@ -411,8 +419,8 @@
                 <div class="position-relative mx-auto h-100" style="max-width: 5rem; min-height: 26rem;">
                     <div class="rellax content-overlay pt-5" data-rellax-percentage="0.5"
                          style="transform: translate3d(0px, 0px, 0px);"><img class="pt-3 mt-5"
-                                                                                src="img/car-finder/home/car.svg"
-                                                                                alt="Car"></div>
+                                                                             src="img/car-finder/home/car.svg"
+                                                                             alt="Car"></div>
                     <div class="position-absolute top-0 start-50 translate-middle-x h-100 overflow-hidden"><img
                             src="img/car-finder/home/road-line.svg" width="2" alt="Road line"></div>
                 </div>
